@@ -1,2 +1,15 @@
 @import './common';
-@import './example';
+@import './_base/reset';
+@import './_base/container';
+@import './_base/base';
+@import './_base/vars';
+@import './header';
+@import './hero';
+@import './products';
+@import './about';
+@import './advantages';
+@import './gallery';
+@import './costomer-reviews';
+@import './contacts';
+@import './footer';
+// @import './example';
