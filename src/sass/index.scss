@@ -1,15 +1,37 @@
-@import './common';
-@import './_base/reset';
-@import './_base/container';
-@import './_base/base';
-@import './_base/vars';
-@import './header';
-@import './hero';
-@import './products';
-@import './about';
-@import './advantages';
-@import './gallery';
-@import './costomer-reviews';
-@import './contacts';
-@import './footer';
-// @import './example';
+// Base
+@import './utils/vars';
+@import './utils/hidden';
+@import './base/common';
+
+@import './base/base';
+@import './base/reset';
+@import './base/container';
+
+// Button
+@import './components/btn';
+@import './components/button-up';
+
+// header
+@import './layout/header';
+@import './layout/header-modal';
+@import './components/mobile-menu';
+
+// Hero
+@import './layout/hero';
+
+// Gallery
+@import './layout/gallery';
+
+//Reviews
+@import './layout/reviews';
+
+// Contacts
+@import './layout/contacts';
+@import './layout/location-modal';
+@import './layout/franchise-modal';
+
+// Modul
+@import './utils/modul';
+@import './base/modul';
+@import './components/modul';
+@import './layout/modul';

@@ -1,0 +1,147 @@
+// .advantages {
+
+// }
+.section__advantages {
+  width: 100%;
+  background-color: var(--main-bgc-color);
+  padding-top: 20px;
+  padding-bottom: 36px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 40px;
+    padding-bottom: 86px;
+  }
+}
+.advantages__list {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 32px;
+  }
+}
+.advantages__item {
+  flex-basis: auto;
+  text-align: center;
+  margin-bottom: 27px;
+
+  @media screen and (min-width: 768px) {
+    width: 152px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 368px;
+    margin-bottom: 0;
+  }
+}
+
+.advantages__item:last-child {
+  margin-bottom: 0;
+}
+.advantages__number {
+  display: block;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 16px;
+  }
+}
+.cow::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 16px;
+  content: '';
+  background-image: url(.././images/4-Advantages/cow.png);
+  @media screen and (min-width: 768px) {
+    margin: 0 auto 32px;
+  }
+}
+.weight::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 16px;
+  content: '';
+  background-image: url(.././images/4-Advantages/weight.png);
+
+  @media screen and (min-width: 768px) {
+    margin: 0 auto 32px;
+  }
+}
+.icecream::before {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 16px;
+  content: '';
+  background-image: url(.././images/4-Advantages/icecrem.png);
+
+  @media screen and (min-width: 768px) {
+    margin: 0 auto 32px;
+  }
+
+  @media screen and (min-width: 1208px) {
+    margin: 0 auto 32px;
+  }
+}
+.advantages__number {
+  margin-bottom: 18px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+
+  color: var(--main-text-color);
+  letter-spacing: 00.04em;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 1.22;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+  }
+}
+
+.advantages__text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  width: 280px;
+  margin: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 152px;
+    font-size: 14px;
+    line-height: 1.74;
+    font-weight: 400;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 368px;
+    font-size: 16px;
+    line-height: 1.76;
+  }
+}

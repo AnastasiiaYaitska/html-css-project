@@ -1,0 +1,144 @@
+.header {
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  // z-index: 100;
+
+  background-color: var(--main-bgc-color);
+}
+
+.header__container {
+  display: flex;
+  align-items: flex-end;
+  // justify-content: center;
+  // padding-top: 12px;
+  // @media screen and (min-width: 768px) {
+  //   padding-top: 24px;
+  // }
+  // @media screen and (min-width: 1200px) {
+  //   justify-content: space-between;
+  // }
+}
+
+.header__logo {
+  margin-right: auto;
+  overflow: hidden;
+
+  // @media screen and (min-width: 1200px) {
+  //   margin-right: 269px;
+  // }
+}
+
+.header__logo-img {
+  width: 40px;
+  min-height: 37px;
+  // padding-top: 12px;
+
+  @media screen and (min-width: 768px) {
+    width: 48px;
+    min-height: 44px;
+    // padding-top: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 60px;
+    min-height: 65px;
+    // padding-top: 8px;
+  }
+}
+
+.nav {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  gap: 269px;
+  z-index: 300;
+}
+
+.nav__list {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 27px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    color: var(--main-text-color);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.nav__item {
+  padding-top: 40px;
+  padding-bottom: 14px;
+}
+
+.nav__link {
+  transition: color var(--anim);
+  &:hover,
+  &:focus {
+    color: var(--defoult-nav-text-color);
+  }
+}
+
+.header__btn-set {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+  // padding-bottom: 6px;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 28px;
+  }
+}
+.header__btn {
+  display: none;
+
+  position: relative;
+  z-index: 1000;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    // margin-left: 32px;
+    // margin-top: 24px;
+    // margin-bottom: 6px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    // margin-top: 28px;
+    // margin-bottom: 4px;
+  }
+
+  &-icon {
+    fill: transparent;
+  }
+}
+
+.header__menu {
+  background-color: transparent;
+  border: none;
+  cursor: url('./../images/cursor.png'), pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 10px 6px;
+  position: relative;
+  z-index: 1000;
+
+  @media screen and (min-width: 1199px) {
+    display: none;
+  }
+}
