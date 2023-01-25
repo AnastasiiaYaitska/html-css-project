@@ -9,16 +9,17 @@
   min-height: 365px;
   background-color: var(--main-text-color);
 
-  transition: opacity 0.25s linear, visibility 0.25s linear;
+  transition: opacity .25s linear, visibility .25s linear;
 
   border-radius: 10px;
   padding: 28px;
   border: var(--main-modal-border);
 
-  @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
     max-width: 568px;
     max-height: 458px;
-  }
+    }
+ 
 }
 
 .location-modal__close-button {
@@ -68,23 +69,23 @@
 }
 
 .location-modal__wrap {
-  max-width: 224px;
-  min-height: 199px;
-  margin: 0 auto;
+    max-width: 224px;
+    min-height: 199px;
+    margin: 0 auto;
 
-  margin-bottom: 24px;
+    margin-bottom: 24px;
 
-  @media screen and (min-width: 768px) {
-    max-width: 448px;
-    min-height: 260px;
+  @media screen and (min-width: 768px){
+      max-width: 448px;
+      min-height: 260px;
   }
 }
 
-.location-modal__map {
-  width: 224px;
-  height: 199px;
+.location-modal__map{
+    width: 224px;
+    height: 199px;
 
-  border-radius: 10px;
+    border-radius: 10px;
 
   @media screen and (min-width: 768px) {
     width: 448px;
@@ -92,13 +93,15 @@
   }
 }
 
-.location-modal__link {
+.location-modal__link{
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
   line-height: calc(15 / 12);
   font-style: normal;
 
+  
+  
   color: var(--secondary-text-color);
   cursor: url('./../images/cursor.png'), pointer;
 }

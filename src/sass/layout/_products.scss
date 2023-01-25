@@ -381,8 +381,7 @@
   visibility: hidden;
 }
 
-.skroll-to-product,
-franchise-modal,
+.skroll-to-product, franchise-modal,
 .modal {
   overflow: auto;
 }
@@ -402,15 +401,15 @@ franchise-modal,
   background: #fcfcfc;
   border: 2px solid #f8d24e;
   border-radius: 10px;
-  transition: opacity 0.25s linear, visibility 0.25s linear;
+  transition: opacity .25s linear, visibility .25s linear;
   @media screen and (max-width: 767px) {
     max-width: 280px;
     height: 100%;
   }
-  @media screen and (max-width: 1199px) {
-    width: 568px;
-    height: 100%;
-  }
+@media screen and (max-width: 1199px) {
+  width: 568px;
+  height: 100%;
+}
   @media screen and (min-width: 768px) {
     width: 568px;
     /*max-width: 995px;*/
@@ -641,10 +640,11 @@ franchise-modal,
   text-align: center;
 }
 
-.active {
+
+.active{
   background-color: #fcfcfc;
 }
 
-.no-active {
+.no-active{
   background-color: #9cbe8f;
 }
